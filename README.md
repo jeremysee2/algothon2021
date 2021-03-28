@@ -14,6 +14,8 @@ A regression classifier was used to predict the Log-Returns value of provided st
 
 The data visualisation task involved showcasing the dataset from the Data Cleaning Challenge. A simple graph was built using Dash Plotly in python, with a simple interactive slider to calculate market momentum using a simple moving average. The demo is available [here](https://plotly-algo.herokuapp.com/).
 
+![Dashboard](images/dashboard.PNG)
+
 ## Low Latency Challenge
 
 Data is ingested from command line in a CSV format, and sent to the `stdin` of the cpp file. Run the file using `time cat train/train_50_0.csv | make run > predictions.csv`. The prediction will be output as a zero or one in predictions.csv
